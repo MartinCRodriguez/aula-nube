@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aula Nube: una introducción al desarrollo web y a la publicación en la nube.">
+  <title>Aula Nube | Desarrollo web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="contenedor">
+    <div id="header" role="banner">
+      <a class="marca" href="index.html" aria-label="Aula Nube, inicio">
+        <img src="assets/logo.svg" alt="Logo de Aula Nube" width="52" height="52">
+        <span>Aula<span class="acento">Nube</span><small>DESARROLLO WEB</small></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#ruta">La ruta</a><a href="#video">Video</a><a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+    <main id="contenido">
+      <section class="hero" aria-labelledby="titulo">
+        <div class="intro">
+          <p class="etiqueta">DEL CÓDIGO A LA WEB</p>
+          <h1 id="titulo">Las ideas crecen<br>en la <em>nube.</em></h1>
+          <p class="descripcion">Una página, un enlace y un mundo de posibilidades. Explora cómo la estructura, el diseño y el alojamiento dan vida a una experiencia web.</p>
+          <a class="boton" href="#video">Explorar el video <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="ilustracion" aria-label="Representación de una página web" role="img">
+          <div class="ventana"><div class="barra"><span>● ● ●</span><span>mi-primer-sitio.html</span></div>
+          <div class="codigo"><span>&lt;idea&gt;</span><br>&nbsp; Imagina.<br>&nbsp; Construye.<br>&nbsp; Comparte.<br><span>&lt;/idea&gt;</span></div></div>
+          <p class="nota">Un proyecto local.<br>Un alcance global.</p>
+        </div>
+      </section>
+      <section id="ruta" class="ruta" aria-labelledby="ruta-titulo">
+        <div class="encabezado-seccion"><p class="etiqueta">TRES PIEZAS, UNA EXPERIENCIA</p><h2 id="ruta-titulo">De la estructura a la publicación</h2></div>
+        <div class="pasos">
+          <article><span class="numero">01</span><h3>Estructura con HTML</h3><p>Organiza el encabezado, el contenido, las imágenes, los enlaces y los datos de contacto.</p></article>
+          <article><span class="numero">02</span><h3>Diseña con CSS</h3><p>Define colores, tipografía y distribución para que la página se adapte a distintos tamaños de pantalla.</p></article>
+          <article><span class="numero">03</span><h3>Publica en la nube</h3><p>Un servicio de alojamiento permite acceder al sitio mediante una URL desde otros dispositivos.</p></article>
+        </div>
+      </section>
+      <section id="video" class="video" aria-labelledby="video-titulo">
+        <div><p class="etiqueta">APRENDE VIENDO</p><h2 id="video-titulo">Nuestro planeta</h2><p>Explora la naturaleza con este documental disponible en Netflix, un ejemplo de servicio de streaming accesible desde la web.</p><p class="detalle">Documental · Netflix<br>El enlace abre la ficha del título y sus tráileres.</p></div>
+        <a class="video-enlace" href="https://www.netflix.com/mx/title/80049832" target="_blank" rel="noopener noreferrer"><span class="play" aria-hidden="true">▶</span><span>Ver en Netflix <span aria-hidden="true">↗</span><small>Se abre en una pestaña nueva</small></span></a>
+      </section>
+    </main>
+    <footer id="contacto">
+      <div><p class="etiqueta">PROYECTO ACADÉMICO · UDG VIRTUAL</p><p><strong>Martin Curiel Rodriguez</strong></p><p>Código de estudiante: 222958593</p></div>
+      <div><p><strong>Curso:</strong> Conceptualización de servicios en la nube</p><p><a href="mailto:martincurielrodriguez@gmail.com">martincurielrodriguez@gmail.com</a></p><p class="detalle">Aula Nube · 2026</p></div>
+    </footer>
+  </div>
+</body>
+</html>
